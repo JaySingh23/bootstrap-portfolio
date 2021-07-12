@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap_portfolio",
+  "version": "1.0.0",
+  "description": "Building a portfolio with bootstrap to practice bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css" 
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-sass",
+    "learn-bootstrap"
+  ],
+  "author": "Jay",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.0",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}

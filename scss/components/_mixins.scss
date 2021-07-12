@@ -1,0 +1,27 @@
+@use '../custom' as *;
+
+//Gradient mixing. Mixins allow you to define styles that can be re-used throughout your stylesheet. They make it easy to avoid using non-semantic classes like .float-left, and to distribute collections of styles in libraries.
+
+@mixin gradient {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secondary, 0.95)
+  );
+}
+
+//FOR THE ABSOLUTE CENTRE
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//TRANSITION PROPERTY
+
+@mixin transitionProperty {
+  transition-duration: 1000ms;
+  transition-property: all;
+}
